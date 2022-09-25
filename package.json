@@ -1,0 +1,22 @@
+{
+    "name": "logger-prac",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cls-rtracer": "^2.6.2",
+        "dotenv": "^16.0.2",
+        "express": "^4.18.1",
+        "tracer": "^1.1.6"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}

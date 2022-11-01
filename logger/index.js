@@ -1,4 +1,5 @@
 const logger = require('./logger')
+const WinstonLogger = require('./WinstonLogger')
 module.exports = {
     info: (req, res, next) => {
         const {
@@ -47,4 +48,5 @@ module.exports = {
             message,
         })
     },
+    winstonLogger: new WinstonLogger(),
 }
